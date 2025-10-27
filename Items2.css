@@ -1,0 +1,64 @@
+/*this is information about items when you click on them from the items page*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+
+a {
+    color: black;
+    text-decoration: none;}
+
+
+/*fonts*/
+body {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   background-color: rgb(97, 83, 65);
+   text-align: center;
+      background-image: url(Sky4.png);
+   background-attachment: fixed;
+}
+
+.back {
+    background-color: rgb(132, 71, 60);
+}
+.column {
+    width:800px;
+    height:540px ;
+    margin-top:10px;
+    margin-right: 20px;
+    margin-left: 5px;
+    border:px solid black;
+    padding:5px;
+    float:right;
+
+    
+   
+}
+
+img {
+    float:left;
+    margin-left: 20px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: rgb(112 60 51);
+  height: 50px;
+  font-size: 40px;
+  text-align: right;
+  
+}
+
+footer{
+    height:100px;
+    background-color:rgb(97, 83, 65);
+}
